@@ -1,0 +1,29 @@
+beast3-housing-community/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── docs/
+│   ├── charter.md
+│   ├── governance.md
+│   ├── policies.md
+│   └── housing-framework.md
+│
+├── src/
+│   ├── core/
+│   │   ├── HousingRegistry.ts
+│   │   ├── CaseManager.ts
+│   │   ├── ResourceLocator.ts
+│   │   ├── CommunityPrograms.ts
+│   │   └── HousingReport.ts
+│   │
+│   ├── api/
+│   │   └── housing.ts
+│   │
+│   └── app/
+│       ├── layout.tsx
+│       └── page.tsx
+│
+└── public/
+    └── logo.png
